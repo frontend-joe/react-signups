@@ -24,22 +24,6 @@ button {
   cursor: pointer;
 }
 
-.control {
-  border: 1.5px solid #dfe1f0;
-  outline: none;
-  width: 100%;
-  height: 56px;
-  padding: 0 16px;
-  background: #f6f7ff;
-  color: inherit;
-  border-radius: 6px;
-  margin: 8px 0;
-  font-family: inherit;
-  text-align: left;
-  font-size: 18px;
-  transition: 0.4s;
-}
-
 .login-card {
   width: 400px;
   padding: 60px 30px 32px;
@@ -73,26 +57,6 @@ button {
   color: #9d9fbd;
 }
 
-.login-form > button.control {
-  cursor: pointer;
-  width: 100%;
-  height: 56px;
-  padding: 0 16px;
-  background: #454a8f;
-  color: #f7f7f7;
-  border: 0;
-  font-family: inherit;
-  font-size: 1rem;
-  font-weight: 600;
-  text-align: center;
-  letter-spacing: 2px;
-  transition: all 0.375s;
-}
-
-.username {
-  position: relative;
-}
-
 .control {
   border: 1.5px solid #dfe1f0;
   outline: none;
@@ -107,6 +71,22 @@ button {
   text-align: left;
   font-size: 18px;
   transition: 0.4s;
+}
+
+button.control {
+  cursor: pointer;
+  width: 100%;
+  height: 56px;
+  padding: 0 16px;
+  background: #454a8f;
+  color: #f7f7f7;
+  border: 0;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 2px;
+  transition: all 0.375s;
 }
 
 .bars {
