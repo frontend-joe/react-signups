@@ -1,4 +1,4 @@
-import { Signup } from "./signups/signup-2/Signup";
+import { Signup } from "./signups/signup-3/Signup";
 
 function App() {
   return <Signup />;

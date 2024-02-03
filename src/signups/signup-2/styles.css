@@ -55,22 +55,6 @@ button {
   color: rgb(255 255 255 / 30%);
 }
 
-.control {
-  outline: none;
-  width: 100%;
-  height: 56px;
-  padding: 0 16px;
-  border: 0;
-  background: #1c1e21;
-  color: inherit;
-  border-radius: 6px;
-  margin: 8px 0;
-  font-family: inherit;
-  text-align: left;
-  font-size: 18px;
-  transition: 0.4s;
-}
-
 button.control {
   cursor: pointer;
   width: 100%;
@@ -93,6 +77,22 @@ button.control:disabled {
 
 .username {
   position: relative;
+}
+
+.control {
+  outline: none;
+  width: 100%;
+  height: 56px;
+  padding: 0 16px;
+  border: 0;
+  background: #1c1e21;
+  color: inherit;
+  border-radius: 6px;
+  margin: 8px 0;
+  font-family: inherit;
+  text-align: left;
+  font-size: 18px;
+  transition: 0.4s;
 }
 
 @keyframes spin {
